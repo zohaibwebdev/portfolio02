@@ -8,7 +8,7 @@
 </head>
 <body class="relative">
    <!-- hero section  -->
-   <header id="header" class=" min-h-screen flex flex-col md:flex-row space-y-8 justify-center items-center px-8 py-8 bg-gradient-to-br from-slate-50 to-yellow-400">
+   <header id="header" class=" min-h-screen flex flex-col-reverse md:flex-row space-y-8 justify-center items-center px-8 py-8 bg-gradient-to-br from-slate-50 to-yellow-400">
     <div class="flex-1">
         <img src="/img/profile.png" alt="zohaib" class="rounded-full">
     </div>
@@ -116,6 +116,37 @@
       </div>
     </div>
   </div>
+
+<!-- magic indicator -->
+
+<nav class="z-10 fixed left-2/4 -translate-x-2/4 bottom-8 rounded-3xl backdrop-blur-lg">
+  <ul class="bg-white shadow-xl relative flex justify-center items-center md:justify-around h-20 w-[350px] md:w-[500px] rounded-3xl">
+    <li class="relative list-none w-[70px] h-[70px]">
+      <a href="#" class="relative w-full text-center">
+        <span class="relative block leading-[75px] text-[1.5em] text-center  text-gray-700 "><ion-icon name="home-outline"></ion-icon></span>
+        
+      </a>
+    </li>
+    <li class="relative list-none w-[70px] h-[70px]">
+      <a href="#about" class="relative  w-full text-center">
+        <span class="relative block leading-[75px] text-[1.5em] text-center delay-150 text-gray-700 "><ion-icon name="person-outline"></ion-icon></span>
+        
+      </a>
+    </li>
+    <li class="relative list-none w-[70px] h-[70px]">
+      <a href="#work" class="relative  w-full text-center">
+        <span class="relative block leading-[75px] text-[1.5em] text-center text-gray-700"><ion-icon name="code-outline"></ion-icon></span>
+        
+      </a>
+    </li >
+    <li class="relative list-none w-[70px] h-[70px]">
+      <a href="#contact" class="relative  w-full text-center">
+        <span class="relative block leading-[75px] text-[1.5em] text-center  text-gray-700"><ion-icon name="mail-outline"></ion-icon></span>
+      </a>
+    </li>
+  </ul>
+</nav>
+
   <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 
